@@ -1,6 +1,6 @@
 function sendMessage() {
     var request = new XMLHttpRequest();
-    request.open("POST", "WEBHOOK URL"); //here your discord webhook
+    request.open("POST", "https://discord.com/api/webhooks/822572817496801281/WIPiqOeGm7qZTaEmHhEVhCWSP0BhN3O3U0gxMKYS6zM3iF4dR3vwSq__4S5PqvCeTMJj"); //here your discord webhook
 
     request.setRequestHeader('Content-type', 'application/json');
 
